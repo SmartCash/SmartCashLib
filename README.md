@@ -32,7 +32,7 @@ Instructions
 - Edit the `app.config` file in the Console test client to best fit your needs. Make sure you also update the `smartcash.conf` file when you alter the `SmartCash_RpcUsername` and `SmartCash_RpcPassword` parameters.
 
 - You can initialize by its interface specification:
-	- `ISmartCashService BitcoinService = new SmartCashService(); 
+	- `ISmartCashService BitcoinService = new SmartCashService();`
 
 Configuration
 -------------
