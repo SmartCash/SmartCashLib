@@ -11,13 +11,11 @@ namespace BitcoinLib.Services.Coins.Smartcash
         {
         }
 
-        public SmartcashService(string daemonUrl, string rpcUsername, string rpcPassword, string walletPassword = null)
-            : base(daemonUrl, rpcUsername, rpcPassword, walletPassword)
+        public SmartcashService(string daemonUrl, string rpcUsername, string rpcPassword, string walletPassword = null) : base(daemonUrl, rpcUsername, rpcPassword, walletPassword)
         {
         }
 
-        public SmartcashService(string daemonUrl, string rpcUsername, string rpcPassword, string walletPassword, short rpcRequestTimeoutInSeconds)
-            : base(daemonUrl, rpcUsername, rpcPassword, walletPassword, rpcRequestTimeoutInSeconds)
+        public SmartcashService(string daemonUrl, string rpcUsername, string rpcPassword, string walletPassword, short rpcRequestTimeoutInSeconds) : base(daemonUrl, rpcUsername, rpcPassword, walletPassword, rpcRequestTimeoutInSeconds)
         {
         }
 
